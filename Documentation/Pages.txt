@@ -1,0 +1,18 @@
+1. dashboard
+2. book appointment
+3. Community
+4. financial aid 
+ 	- recommendation*
+5. analyze diease
+ 	- image to text
+ 	- text to image
+	- model making (hogya)
+	- report generation
+6. Connect (info-whatsapp/phone.mail)
+ 	- surgen
+	- doctors
+ 	- specialist
+ 	- patients
+7. Donate (payemnt gateway-qr code, certificate)
+8. News & Updates (graphs)
+9. signout
