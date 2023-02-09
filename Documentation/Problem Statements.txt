@@ -1,0 +1,12 @@
+1)Develop web/app that connects patients  with NGO & Government  Agencies & others providing financial aids for certain diseases. 
+That platform should allow users for the resources such as speciality hospitals offering various schemes and surgeons.
+
+2)Develop a web/mobile platform that connects job seekers with skill development resources, such as online courses, tutorials, 
+and mentorship programs. The platform should allow users to search for resources based on their skills and career goals, 
+track their progress, and connect with other learners and experts in their field.
+
+3)Design a web/mobile platform that connects local volunteer organizations with individuals looking to donate their time and 
+skills to good causes.
+
+4)Design a virtual wardrobe website/mobile app that allows users to upload pictures of their clothes, create outfits, 
+and plan their outfits for the week.
