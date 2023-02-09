@@ -1,18 +1,21 @@
-1. dashboard
-2. book appointment
-3. Community
+1. dashboard 
+2. book appointment 
+3. Community **
 4. financial aid 
- 	- recommendation*
+ 	- recommendation **dataset
 5. analyze diease
- 	- image to text
- 	- text to image
+ 	- image to text **
+ 	- text to image (hogya)
 	- model making (hogya)
-	- report generation
-6. Connect (info-whatsapp/phone.mail)
+	- report generation (hogya)
+6. Connect (info-whatsapp/phone.mail) (hogya)
+	- google meet 
  	- surgen
 	- doctors
  	- specialist
  	- patients
 7. Donate (payemnt gateway-qr code, certificate)
-8. News & Updates (graphs)
-9. signout
+(hogya)
+8. News & Updates (graphs) (hogya)
+9. My Profile (hogya)
+9. signout (hogya)
