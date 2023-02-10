@@ -6,7 +6,7 @@ def chatgpt(message):
 
     # Set up the model and prompt
     model_engine = "text-davinci-003"
-    prompt = message
+    prompt = message 
 
     # Generate a response
     completion = openai.Completion.create(
