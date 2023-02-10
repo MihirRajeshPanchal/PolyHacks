@@ -1,6 +1,6 @@
 import streamlit as st
 from multiapp import MultiApp
-from apps import home,login
+from apps import home,login,bookappoint
 
 app = MultiApp()
 
@@ -11,6 +11,7 @@ st.set_page_config(
 
 app.add_app("Home", home.app)
 app.add_app("Login", login.app)
+app.add_app("Book Appointmet", bookappoint.app)
 # The main app
 app.run()
 
