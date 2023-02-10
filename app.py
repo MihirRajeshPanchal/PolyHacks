@@ -18,7 +18,8 @@ hide_streamlit_style = """
             """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
-app.add_app("Home", dashboard.app)
+app.add_app("Home", home.app)
+app.add_app("Dashboard", dashboard.app)
 app.add_app("Book Appointment", bookappoint.app)
 app.add_app("Cardiac Prediction", prediction.app)
 app.add_app("Community", community.app)
