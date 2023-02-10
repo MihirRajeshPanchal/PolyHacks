@@ -11,9 +11,10 @@ class MultiApp:
         })
 
     def run(self):
-        app = st.sidebar.radio(
+        selected_app = st.sidebar.selectbox(
             'Go To',
-            self.apps,
-            format_func  =lambda app: app['title'])
-        
-        app['function']()
+            [app['title'] for app in self.apps]
+        )
+        for app in self.apps:
+            if app['title'] == selected_app:
+                app['function']()
