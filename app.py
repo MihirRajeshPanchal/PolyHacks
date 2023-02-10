@@ -1,6 +1,7 @@
 import streamlit as st
 from multiapp import MultiApp
-from apps import home,login
+from apps import dashboard,login,bookappoint,community,connect,prediction,signup
+
 
 app = MultiApp()
 
@@ -23,7 +24,6 @@ app.add_app("Cardiac Prediction", prediction.app)
 app.add_app("Community", community.app)
 app.add_app("Connect Us", connect.app)
 app.add_app("Login", login.app)
-app.add_app("Book Appointmet", bookappoint.app)
 app.add_app("Signup", signup.app)
 # The main app
 app.run()
