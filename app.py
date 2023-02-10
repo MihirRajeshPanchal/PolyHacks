@@ -1,6 +1,6 @@
 import streamlit as st
 from multiapp import MultiApp
-from apps import home,login
+from apps import home,login, signup
 
 app = MultiApp()
 
@@ -9,8 +9,17 @@ st.set_page_config(
     page_icon="👋",
 )
 
+# To remove the footer of the framework 
+hide_streamlit_style = """
+            <style>
+            footer {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+
 app.add_app("Home", home.app)
 app.add_app("Login", login.app)
+app.add_app("Signup", signup.app)
 # The main app
 app.run()
 
