@@ -1,10 +1,6 @@
 import streamlit as st
 from multiapp import MultiApp
-<<<<<<< HEAD
 from apps import dashboard,login,bookappoint,community,connect,prediction,signup,home
-=======
-from apps import dashboard,login,bookappoint,community,connect,prediction,signup, home
->>>>>>> 525a4dea5f3d51aa317b5677ccfdcec998e677a4
 
 
 app = MultiApp()
